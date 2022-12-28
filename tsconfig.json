@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -16,11 +16,8 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@styles/*": ["styles/*"],
-      "@components": ["components"],
-      "@utils": ["utils"],
-      "@hooks": ["hooks"],
-      "@icons": ["icons"]
+      "@/*": ["./src/*"],
+      "~/*": ["./public/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

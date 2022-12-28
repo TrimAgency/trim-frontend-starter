@@ -11,7 +11,9 @@
     "fix-format": "prettier --write --ignore-path .gitignore .",
     "prepare": "husky install",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
-    "check-types": "tsc --pretty --noEmit"
+    "check-types": "tsc --pretty --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@next/font": "13.1.1",
