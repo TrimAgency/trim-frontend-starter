@@ -1,0 +1,22 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "env": {
+    "jest": true
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module", // Allows for the use of imports
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    }
+  },
+  "rules": {
+    "react/display-name": "off",
+    "@next/next/no-img-element": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/restrict-template-expressions": 1
+  },
+  "ignorePatterns": ["**/*.js"]
+}
