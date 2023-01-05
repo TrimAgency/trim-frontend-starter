@@ -14,7 +14,6 @@ This repository is :battery: battery packed with:
 - :atom_symbol: React 18
 - :sparkles: TypeScript
 - :dash: Tailwind CSS 3 — Configured with CSS Variables to extend the **primary** color
-- :gem: Pre-built Components — Components that will **automatically adapt** with your brand color, [check here for the demo](https://tsnext-tw.thcl.dev/components)
 - :black_joker: Jest — Configured for unit testing
 - :chart_with_upwards_trend: Absolute Import and Path Alias — Import components using `@/` prefix
 - :straight_ruler: ESLint — Find and fix problems in your code, also will **auto sort** your imports
