@@ -13,7 +13,9 @@
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
     "check-types": "tsc --pretty --noEmit",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@next/font": "13.1.1",
@@ -29,10 +31,21 @@
     "use-context-selector": "^1.4.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
     "eslint": "^8.30.0",
     "eslint-config-standard-with-typescript": "^24.0.0",
     "eslint-plugin-import": "^2.26.0",
